@@ -1,7 +1,7 @@
 ---
-title: \ Introduction 
+title: \ Introduction
 layout: page
-permalink: \ Introduction 
+permalink: \ Introduction
 ---
 
 # Enabling things
