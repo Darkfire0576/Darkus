@@ -1,1 +1,1 @@
-# Documentation.github.io
+# Documentation
