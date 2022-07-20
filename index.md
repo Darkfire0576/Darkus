@@ -63,4 +63,9 @@ getgenv() <-- this is what we use to create variables-
 -would mean the silent FOV is set to 0. Example:
 
 `s_FOV = 0`
+
+Obviously setting it to 0 would make the FOV too small-
+-for the engine to recognize. After all 0 isn't greater-
+-then any positive integer, so the "Magnitude" will always-
+-be greater then an FOV of 0, more on "Magnitude" later.
 ```
