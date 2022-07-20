@@ -30,6 +30,21 @@ getgenv() <-- this is what we use to create variables-
 
 # a_Enabled is equal to "getgenv().Assist" which is a universal variable-
 # -that holds "true or false". Enables/disables the aim-assist.
+
+(The following are what I like to call sub-setting booleans-
+-you'll understand how they're different as you view them.)
+
+4. `Auto_Soft = getgenv().AutoSoft = Auto_Soften = true/false?`
+
+# Auto_Soft is a distance scaled automator that automates what sensitivity
+-to use based on how many studs away you are from the target.
+
+5. `ignore_Idle = getgenv().ignore_Idle = ignore_Idle = true/false?`
+
+# ignore_Idle in short terms, means to ignore people standing still. A more detailed-
+-explanation would be that it loops through the players and checks if the-
+-magnitude of their "MoveDirection" value in their "Humanoid" is 0.
+
 ```
 
 
