@@ -1,6 +1,7 @@
 ## Documentation
 
 Note: This script utilizes [stefanuk12's experimental aiming module](https://stefanuk12.github.io/Aiming/). You can get the module via the link provided yourself.
+
 As for this script, you can get it via the channel with the latest version uploaded, the following on this doc is only for people who have access to the server associated with it, anyone else can view this documentation for a few in-depth explanations, but will not be recieving the script here. It is private and advised you leave.
 
 ### Enabling things
