@@ -11,7 +11,7 @@ There are very many options to choose from, and disabling which ones you don't w
 getgenv() <-- this is what we use to create variables- 
 -that can be called from any script executed by [Synapse X](https://x.synapse.to/).
 
-Enabled = getgenv().Engine = true/false?
+`Enabled = getgenv().Engine = true/false?`
 
 "Enabled" is just the booleans third variable, so setting Enabled to false-
 -would mean setting "getgenv().Engine" to false which sets-
@@ -36,7 +36,7 @@ then run the second code block.
 Theres a lot to choose from, and not everything has been listed but will be in the future. To list the most important:
 
 
-0. Enabled = getgenv().Engine = true/false?
+0. `Enabled = getgenv().Engine = true/false?`
 
  Enabled is equal to "getgenv().Engine" which is a universal variable-
  -that holds "true or false". The name is self-explanatory, enables/disables the entire script.
