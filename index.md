@@ -30,11 +30,6 @@ getgenv() <-- this is what we use to create variables-
 
 # a_Enabled is equal to "getgenv().Assist" which is a universal variable-
 # -that holds "true or false". Enables/disables the aim-assist.
-
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
 
