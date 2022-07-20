@@ -1,4 +1,4 @@
-## Documentation
+## Introduction
 
 Note: This scripts [module](https://raw.githubusercontent.com/Hexxxxxxxxxxxxxxxxxx/Hexus/main/Module.lua) utilizes all contents from [stefanuk12's experimental aiming module](https://stefanuk12.github.io/Aiming/), you can get the module via the link provided yourself.
 
@@ -13,6 +13,17 @@ getgenv() <-- this is what we use to create variables-
 -that can be called from any script executed by [Synapse X](https://x.synapse.to/).
 
 0. `Enabled = getgenv().Engine = true/false?`
+
+"Enabled" is just the booleans third variable, so setting Enabled to false-
+-would mean setting "getgenv().Engine" to false which sets-
+-internal.terminal.control_Settings.Enabled to false. Example:
+
+`Enabled = false --// Same thing as setting "internal.terminal.control_Settings.Enabled" to false.
+if Enabled then --// This is checking if "Enabled" is set to "true"
+   (example code here)
+else --// If "Enabled" isn't "true"
+   (example code here)
+end`
 
 # Enabled is equal to "getgenv().Engine" which is a universal variable-
 # -that holds "true or false". The name is self-explanatory, enables/disables the entire script.
