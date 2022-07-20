@@ -8,9 +8,13 @@ You can get the script via the channel with the latest version uploaded, the fol
 The triggerbot contains 4 changable values. One of which, are universally used amongst all parts of the script.
 
 ```markdown
-# getgenv() <-- this is what we use to create variables that can be called from any script executed by [Synapse X](https://x.synapse.to/).
+# getgenv() <-- this is what we use to create variables 
+that can be called from any script executed by [Synapse X](https://x.synapse.to/).
 
-- Bulleted
+- t_Enabled = getgenv().Triggerbot = trigger_Enabled = true/false?
+# t_Enabled is equal to "getgenv().Triggerbot" which is a universal variable
+that holds "true or false". The name is self-explanatory, enables/disables the triggerbot
+
 - List
 
 1. Numbered
@@ -23,10 +27,6 @@ The triggerbot contains 4 changable values. One of which, are universally used a
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
+### Silent_Aim
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/HexMachinex/Documentation.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Silent aim contains 5 changable values. Three of which, are hidden in this documentation to terminate any possible errors that could occur from changing them.
