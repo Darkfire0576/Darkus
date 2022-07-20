@@ -68,8 +68,3 @@ Obviously setting it to 0 would make the FOV too small-
 -then any positive integer, so the "Magnitude" will always-
 -be greater then an FOV of 0, more on "Magnitude" later.
 ```
-
-
-### Auto-Prediction, Auto-Soften.
-
-Text:
