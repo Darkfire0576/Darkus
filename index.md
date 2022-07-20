@@ -1,7 +1,7 @@
 ---
 title: UwU
 layout: home
-permalink: /
+permalink: UwU
 ---
 
 # Information & instructions
