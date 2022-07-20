@@ -8,8 +8,8 @@ permalink: / Introduction
 
 There are very many options to choose from, and disabling which ones you don't want and enabling the ones you do want is probably essential to you for a well rounded script that runs what you want it to, this should show you how.
 
-getgenv() <-- this is what we use to create variables- 
--that can be called from any script executed by [Synapse X](https://x.synapse.to/).
+getgenv() <-- this is what we use to create variables
+that can be called from any script executed by [Synapse X](https://x.synapse.to/).
 
 "Enabled = getgenv().Engine = true/false?"
 
