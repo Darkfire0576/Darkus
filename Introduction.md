@@ -4,7 +4,7 @@ layout: page
 permalink: /Introduction
 ---
 
-### Enabling things
+# Enabling things
 
 There are very many options to choose from, and disabling which ones you don't want and enabling the ones you do want is probably essential to you for a well rounded script that runs what you want it to, this should show you how.
 
@@ -69,7 +69,7 @@ you'll understand how they're different as you view them.)
  ignore_Idle in short terms, means to ignore people standing still.
 
 
-### Custom amplifiers, exc.
+# Custom amplifiers, exc.
 
 Custom aplifiers are variables that might hold integers and numbers or other non-boolean value types. These variables control things like prediction, FOV's, hitbox multipliers, movement multipliers, aim-assist sensitivities, and others. To list all:
 
