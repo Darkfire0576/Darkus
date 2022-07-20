@@ -1,25 +1,31 @@
-## ____ Documentation
+## Documentation
 
 Note: This script utilizes [stefanuk12's experimental aiming module](https://stefanuk12.github.io/Aiming/).
 You can get the script via the channel with the latest version uploaded, the following on this doc is only for the script.
 
-### Triggerbot
+### Enabling things
 
-The triggerbot contains 4 changable values. One of which, are universally used amongst all parts of the script.
+There are many things that can be enabled and disabled to fit your taste, this markdown will list all of them.
 
 ```markdown
-# getgenv() <-- this is what we use to create variables- 
-# -that can be called from any script executed by [Synapse X](https://x.synapse.to/).
+getgenv() <-- this is what we use to create variables- 
+-that can be called from any script executed by [Synapse X](https://x.synapse.to/).
 
-- t_Enabled = getgenv().Triggerbot = trigger_Enabled = true/false?
+1. `t_Enabled = getgenv().Triggerbot = trigger_Enabled = true/false?`
 
 # t_Enabled is equal to "getgenv().Triggerbot" which is a universal variable-
 # -that holds "true or false". The name is self-explanatory, enables/disables the triggerbot.
 
-- List
+2. `s_Toggle = getgenv().Silent = silent_Toggle = true/false?`
 
-1. Numbered
-2. List
+# s_Toggle is equal to "getgenv().Silent" which is a universal variable-
+# -that holds "true or false". The name is self-explanatory, enables/disables the silent-aim.
+
+3. `a_Enabled = getgenv().Assist = Assist_Enabled = true/false?`
+
+# a_Enabled is equal to "getgenv().Assist" which is a universal variable-
+# -that holds "true or false". The name is self-explanatory, enables/disables the aim-assist.
+
 
 **Bold** and _Italic_ and `Code` text
 
