@@ -38,35 +38,35 @@ Theres a lot to choose from, and not everything has been listed but will be in t
 
 0. Enabled = getgenv().Engine = true/false?
 
-# Enabled is equal to "getgenv().Engine" which is a universal variable-
-# -that holds "true or false". The name is self-explanatory, enables/disables the entire script.
+ Enabled is equal to "getgenv().Engine" which is a universal variable-
+ -that holds "true or false". The name is self-explanatory, enables/disables the entire script.
 
 1. `t_Enabled = getgenv().Triggerbot = true/false?`
 
-# t_Enabled is equal to "getgenv().Triggerbot" which is a universal variable-
-# -that holds "true or false". Enables/disables the triggerbot.
+ t_Enabled is equal to "getgenv().Triggerbot" which is a universal variable-
+ -that holds "true or false". Enables/disables the triggerbot.
 
 2. `s_Toggle = getgenv().Silent = true/false?`
 
-# s_Toggle is equal to "getgenv().Silent" which is a universal variable-
-# -that holds "true or false". Enables/disables the silent-aim.
+ s_Toggle is equal to "getgenv().Silent" which is a universal variable-
+ -that holds "true or false". Enables/disables the silent-aim.
 
 3. `a_Enabled = getgenv().Assist = true/false?`
 
-# a_Enabled is equal to "getgenv().Assist" which is a universal variable-
-# -that holds "true or false". Enables/disables the aim-assist.
+ a_Enabled is equal to "getgenv().Assist" which is a universal variable-
+ -that holds "true or false". Enables/disables the aim-assist.
 
 (The following are what I like to call sub-setting booleans-
 -you'll understand how they're different as you view them.)
 
 4. `Auto_Soft = getgenv().AutoSoft = true/false?`
 
-# Auto_Soft is a distance scaled automator that automates what sensitivity
-# -to use based on how many studs away you are from the target.
+ Auto_Soft is a distance scaled automator that automates what sensitivity
+ -to use based on how many studs away you are from the target.
 
 5. `ignore_Idle = getgenv().ignore_Idle = true/false?`
 
-# ignore_Idle in short terms, means to ignore people standing still.
+ ignore_Idle in short terms, means to ignore people standing still.
 
 
 ### Custom amplifiers, exc.
