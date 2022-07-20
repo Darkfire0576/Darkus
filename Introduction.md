@@ -8,22 +8,21 @@ permalink: / Introduction
 
 There are very many options to choose from, and disabling which ones you don't want and enabling the ones you do want is probably essential to you for a well rounded script that runs what you want it to, this should show you how.
 
-```markdown
 getgenv() <-- this is what we use to create variables- 
 -that can be called from any script executed by [Synapse X](https://x.synapse.to/).
 
-`Enabled = getgenv().Engine = true/false?`
+Enabled = getgenv().Engine = true/false?
 
 "Enabled" is just the booleans third variable, so setting Enabled to false-
 -would mean setting "getgenv().Engine" to false which sets-
 -internal.terminal.control_Settings.Enabled to false. Example:
 
-`Enabled = false
+Enabled = false
 if Enabled then
    (first example code)
 else
    (second example code)
-end`
+end
 
 "Enabled = false" Is the same thing as setting 
 "internal.terminal.control_Settings.Enabled" to false.
@@ -33,11 +32,11 @@ is set to true to then run the first code block
 
 "else" Means if "Enabled" isn't set to true 
 then run the second code block.
-```
+
 Theres a lot to choose from, and not everything has been listed but will be in the future. To list the most important:
 
-```markdown
-0. `Enabled = getgenv().Engine = true/false?`
+
+0. Enabled = getgenv().Engine = true/false?
 
 # Enabled is equal to "getgenv().Engine" which is a universal variable-
 # -that holds "true or false". The name is self-explanatory, enables/disables the entire script.
@@ -69,13 +68,11 @@ Theres a lot to choose from, and not everything has been listed but will be in t
 
 # ignore_Idle in short terms, means to ignore people standing still.
 
-```
 
 ### Custom amplifiers, exc.
 
 Custom aplifiers are variables that might hold integers and numbers or other non-boolean value types. These variables control things like prediction, FOV's, hitbox multipliers, movement multipliers, aim-assist sensitivities, and others. To list all:
 
-```markdown
 getgenv() <-- this is what we use to create variables- 
 -that can be called from any script executed by [Synapse X](https://x.synapse.to/).
 
@@ -91,4 +88,4 @@ Obviously setting it to 0 would make the FOV too small-
 -for the engine to recognize. After all 0 isn't greater-
 -then any positive integer, so the "Magnitude" will always-
 -be greater then an FOV of 0, more on "Magnitude" later.
-```
+
