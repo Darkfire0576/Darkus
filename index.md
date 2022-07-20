@@ -18,12 +18,16 @@ getgenv() <-- this is what we use to create variables-
 -would mean setting "getgenv().Engine" to false which sets-
 -internal.terminal.control_Settings.Enabled to false. Example:
 
-`Enabled = false --// Same thing as setting "internal.terminal.control_Settings.Enabled" to false.
-if Enabled then --// This is checking if "Enabled" is set to "true"
+`Enabled = false
+if Enabled then
    (example code here)
-else --// If "Enabled" isn't "true"
+else
    (example code here)
 end`
+
+"Enabled = false" Is the same thing as setting "internal.terminal.control_Settings.Enabled" to false.
+"if Enabled then" Is stating if "Enabled" is set to true to then run the code
+"else" Means if "Enabled" isn't set to true then run different code.
 
 # Enabled is equal to "getgenv().Engine" which is a universal variable-
 # -that holds "true or false". The name is self-explanatory, enables/disables the entire script.
