@@ -4,7 +4,7 @@ layout: home
 permalink: \
 ---
 
-# Information & instructions
+### Information & instructions
 
 Note: This scripts [module](https://raw.githubusercontent.com/Hexxxxxxxxxxxxxxxxxx/Hexus/main/Module.lua) utilizes all contents from [stefanuk12's experimental aiming module](https://stefanuk12.github.io/Aiming/), you can get the module via the link provided yourself.
 
