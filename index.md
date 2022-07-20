@@ -13,7 +13,7 @@ that can be called from any script executed by [Synapse X](https://x.synapse.to/
 
 - t_Enabled = getgenv().Triggerbot = trigger_Enabled = true/false?
 # t_Enabled is equal to "getgenv().Triggerbot" which is a universal variable
-that holds "true or false". The name is self-explanatory, enables/disables the triggerbot
+# that holds "true or false". The name is self-explanatory, enables/disables the triggerbot
 
 - List
 
