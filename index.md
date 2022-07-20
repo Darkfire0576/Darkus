@@ -1,19 +1,14 @@
-## Welcome to GitHub Pages
+## ____ Documentation
 
-You can use the [editor on GitHub](https://github.com/HexMachinex/Documentation.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Note: This script utilizes [stefanuk12's experimental aiming module](https://stefanuk12.github.io/Aiming/).
+You can get the script via the channel with the latest version uploaded, the following on this doc is only for the script.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Triggerbot
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The triggerbot contains 4 changable values. One of which, are universally used amongst all parts of the script.
 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
+# getgenv() <-- this is what we use to create variables that can be called from any script executed by [Synapse X](https://x.synapse.to/).
 
 - Bulleted
 - List
