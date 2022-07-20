@@ -6,13 +6,13 @@ As for this script, you can get it via the channel with the latest version uploa
 
 ### Enabling things
 
-There are many things that can be enabled and disabled to fit your taste, this markdown will list all of them.
+There are very many options to choose from, and disabling which ones you don't want and enabling the ones you do want is probably essential to you for a well rounded script that runs what you want it to, this should show you how.
 
 ```markdown
 getgenv() <-- this is what we use to create variables- 
 -that can be called from any script executed by [Synapse X](https://x.synapse.to/).
 
-0. `Enabled = getgenv().Engine = true/false?`
+`Enabled = getgenv().Engine = true/false?`
 
 "Enabled" is just the booleans third variable, so setting Enabled to false-
 -would mean setting "getgenv().Engine" to false which sets-
@@ -20,14 +20,24 @@ getgenv() <-- this is what we use to create variables-
 
 `Enabled = false
 if Enabled then
-   (example code here)
+   (first example code)
 else
-   (example code here)
+   (second example code)
 end`
 
-"Enabled = false" Is the same thing as setting "internal.terminal.control_Settings.Enabled" to false.
-"if Enabled then" Is stating if "Enabled" is set to true to then run the code
-"else" Means if "Enabled" isn't set to true then run different code.
+"Enabled = false" Is the same thing as setting 
+"internal.terminal.control_Settings.Enabled" to false.
+
+"if Enabled then" Is stating if "Enabled" 
+is set to true to then run the first code block
+
+"else" Means if "Enabled" isn't set to true 
+then run the second code block.
+```
+Theres a lot to choose from, and not everything has been listed but will be in the future. To list the most important:
+
+```markdown
+0. `Enabled = getgenv().Engine = true/false?`
 
 # Enabled is equal to "getgenv().Engine" which is a universal variable-
 # -that holds "true or false". The name is self-explanatory, enables/disables the entire script.
@@ -60,7 +70,6 @@ end`
 # ignore_Idle in short terms, means to ignore people standing still.
 
 ```
-
 
 ### Custom amplifiers, exc.
 
