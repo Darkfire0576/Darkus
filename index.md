@@ -8,12 +8,12 @@ You can get the script via the channel with the latest version uploaded, the fol
 The triggerbot contains 4 changable values. One of which, are universally used amongst all parts of the script.
 
 ```markdown
-# getgenv() <-- this is what we use to create variables 
-that can be called from any script executed by [Synapse X](https://x.synapse.to/).
+# getgenv() <-- this is what we use to create variables- 
+# -that can be called from any script executed by [Synapse X](https://x.synapse.to/).
 
 - t_Enabled = getgenv().Triggerbot = trigger_Enabled = true/false?
-# t_Enabled is equal to "getgenv().Triggerbot" which is a universal variable
-# that holds "true or false". The name is self-explanatory, enables/disables the triggerbot
+# t_Enabled is equal to "getgenv().Triggerbot" which is a universal variable-
+# -that holds "true or false". The name is self-explanatory, enables/disables the triggerbot.
 
 - List
 
