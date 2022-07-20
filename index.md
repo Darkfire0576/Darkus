@@ -39,6 +39,10 @@ getgenv() <-- this is what we use to create variables-
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Silent_Aim
+### Custom amplifiers, exc.
 
-Silent aim contains 5 changable values. Three of which, are hidden in this documentation to terminate any possible errors that could occur from changing them.
+Custom aplifiers are variables that might hold integers and numbers or other non-boolean value types. These variables control things like prediction, FOV's, hitbox multipliers, movement multipliers, aim-assist sensitivities, and others. To list all:
+
+```markdown
+Example_1:
+```
