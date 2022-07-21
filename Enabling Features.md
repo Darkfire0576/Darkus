@@ -1,7 +1,7 @@
 ---
-title: /Enabling Features
+title: /Enabling
 layout: page
-permalink: /Enabling Features
+permalink: /Enabling
 ---
 
 ### Enabling things
