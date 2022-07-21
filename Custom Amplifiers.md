@@ -1,3 +1,9 @@
+---
+title: /Custom Amplifiers
+layout: page
+permalink: /Custom Amplifiers
+---
+
 ### Custom amplifiers.
 
 Custom aplifiers are variables that might hold integers and numbers or other non-boolean value types. These variables control things like prediction, FOV's, hitbox multipliers, movement multipliers, aim-assist sensitivities, and others.
