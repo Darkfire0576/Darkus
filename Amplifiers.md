@@ -1,7 +1,7 @@
 ---
-title: /Custom Amplifiers
+title: /Amplifiers
 layout: page
-permalink: /Custom Amplifiers
+permalink: /Amplifiers
 ---
 
 ### Custom amplifiers.
