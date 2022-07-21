@@ -23,6 +23,6 @@ the above is the calculation for the magnitude of the two positions.
     ???
 end`
 
-the code above is stating if the [FOV] is greater then the magnitude between my cursor 
+the code above is stating if the [FOV] is greater then the magnitude of my cursor 
 and the prediction point then it runs the "Mystery code" .
 ```
