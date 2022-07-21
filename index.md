@@ -2,6 +2,7 @@
 title: /
 layout: home
 permalink: /
+image: /assets/Hexus.png
 ---
 
 ### Information & instructions
@@ -14,3 +15,4 @@ Note: This scripts [module](https://raw.githubusercontent.com/Hexxxxxxxxxxxxxxxx
 
 3. The content pages of this documentation are at the top for you to view, go to which page you feel is most important to you.
 
+![]({ page.image | relative_url }})
