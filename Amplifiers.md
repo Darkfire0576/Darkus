@@ -10,8 +10,8 @@ Custom aplifiers are variables that might hold integers and numbers or other non
 It's important you understand how to use them:
 
 ```markdown
-getgenv() <-- this is what we use to create variables- 
--that can be called from any script executed by [Synapse X](https://x.synapse.to/).
+getgenv() <-- this is what we use to create variables that can be called from
+any script executed by [Synapse X](https://x.synapse.to/).
 
 1. `s_FOV = getgenv().SilentFOV = [Integer]`
 2. `a_FOV = getgenv().AssistFOV = [Integer]`
