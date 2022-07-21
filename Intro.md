@@ -1,7 +1,7 @@
 ---
-title: /Introduction
+title: /Intro
 layout: page
-permalink: /Introduction
+permalink: /Intro
 ---
 
 ### Enabling things
