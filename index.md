@@ -2,7 +2,7 @@
 title: /
 layout: home
 permalink: /
-image: Hexus/assets/Hexus.png
+image: /assets/Hexus.png
 ---
 
 ### Information & instructions
