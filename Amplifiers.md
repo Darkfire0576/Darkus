@@ -4,7 +4,7 @@ layout: page
 permalink: /Amplifiers
 ---
 
-### Custom amplifiers.
+### What are custom amplifiers?
 
 Custom aplifiers are variables that might hold integers and numbers or other non-boolean value types. These variables control things like prediction, FOV's, hitbox multipliers, movement multipliers, aim-assist sensitivities, and others.
 It's important you understand how to use them:
@@ -27,6 +27,7 @@ Obviously setting it to 0 would make the FOV too small-
 -be greater then an FOV of 0, more on "Magnitude" later.
 ```
 
+### How many are there?
 To list all current "Custom" Amplifiers:
 ```markdown
 1. Test
