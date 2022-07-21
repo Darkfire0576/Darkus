@@ -2,7 +2,8 @@
 
 header_pages:
   - index.md
-  - introduction.md
+  - Enabling.md
+  - Amplifiers.md
 
 #footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
 
