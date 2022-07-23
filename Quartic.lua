@@ -1,3 +1,5 @@
+-- NOT MINE CREDITS TO WHOEVER MADE!!1
+
 --// Functions
 local eps = 1e-9
 local function isZero(d)
