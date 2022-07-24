@@ -1,3 +1,5 @@
+if getgenv().Calc then return getgenv().Calc end
+
 -- NOT MINE CREDITS TO WHOEVER MADE!!1
 getgenv().math = math
 local math = getgenv().math
@@ -90,7 +92,8 @@ local function solveCubic(c0, c1, c2, c3)
 	return s0, s1, s2
 end
 
-local Calc = {}
+getgenv().Calc = {}
+local Calc = getgenv().Calc
 
 function Calc.solveQuartic(c0, c1, c2, c3, c4)
 	local s0, s1, s2, s3
