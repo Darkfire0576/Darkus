@@ -1,4 +1,6 @@
 -- NOT MINE CREDITS TO WHOEVER MADE!!1
+getgenv().math = math
+local math = getgenv().math
 
 --// Functions
 local eps = 1e-9
