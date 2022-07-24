@@ -1,8 +1,12 @@
 if getgenv().Calc then return getgenv().Calc end
 
 -- NOT MINE CREDITS TO WHOEVER MADE!!1
-getgenv().math = math
-local math = getgenv().math
+getgenv().Calc = {
+	math
+}
+
+local Calc = getgenv().Calc
+local math = Calc.math
 
 --// Functions
 local eps = 1e-9
@@ -91,9 +95,6 @@ local function solveCubic(c0, c1, c2, c3)
 
 	return s0, s1, s2
 end
-
-getgenv().Calc = {}
-local Calc = getgenv().Calc
 
 function Calc.solveQuartic(c0, c1, c2, c3, c4)
 	local s0, s1, s2, s3
