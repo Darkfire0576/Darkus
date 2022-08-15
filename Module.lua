@@ -338,7 +338,7 @@ function internal.GetClosestTargetPartToCursor(Character)
 		
 		local TargetCFrame = TargetPart.CFrame
 		local TargetVelocity = TargetPart.Velocity
-		local TargetPredictionPoint = TargetCFrame + (TargetVelocity*0.140)
+		local TargetPredictionPoint = TargetCFrame
 		
 		-- // Get the length between Mouse and Target Part (on screen)
 		local PartPos, onScreen = WorldToViewportPoint(CurrentCamera, TargetPredictionPoint.Position)
