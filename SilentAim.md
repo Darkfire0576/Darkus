@@ -3,7 +3,7 @@ title: /SilentAim
 layout: page
 permalink: /SilentAim
 ---
-# Warning: This page is a little outdated, information may not be extremely reliable.
+# Warning: This page is a little outdated, information may not be extremely reliable. [DISCONTINUED]
 
 
 ### Hexus silent-aim
@@ -24,5 +24,5 @@ the above is the calculation for the magnitude of the two positions.
 end`
 
 the code above is stating if the [FOV] is greater then the magnitude of my cursor 
-and the prediction point then it runs the "Mystery code" .
+and the prediction point then it runs the code below it .
 ```
