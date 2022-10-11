@@ -1,3 +1,5 @@
+-- // Credits to stefanuk of course
+
 if getgenv().internal then return getgenv().internal end
 
 -- // Services
