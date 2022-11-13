@@ -4,6 +4,5 @@ layout: page
 permalink: /Enabling
 ---
 
-### Enabling things
-
+# Warning: This page is a little outdated, information may not be extremely reliable. [DISCONTINUED]
 [Redacted]
